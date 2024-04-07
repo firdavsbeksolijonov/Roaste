@@ -1,0 +1,222 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+ul li{
+    list-style: none;
+    font-family: 'Barlow';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #333D4B;
+}
+.container{
+    display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1140px;
+    
+}
+.sters{
+    font-family: 'Bruno Ace SC', cursive;
+    color: white;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    background: #635147;
+    align-items: center;
+    width: 1281px;
+    gap: 250px;
+    position: fixed;
+    top: -20px;
+    z-index: 9999;
+    height: 120px;
+    border-radius: 15px;
+}
+.about__us{
+    width: 1280px;
+    height: 450px;
+    background-image: url(./images/header\ image.svg);
+    margin-top: 100px;
+}
+a{
+    padding: 0 20px;
+    text-decoration: none;
+    font-family: 'Barlow';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 15px;
+letter-spacing: 0.923077px;
+text-transform: uppercase;
+color: white;
+}
+
+.Aboutus__text{
+    width: 445px;
+    height: 175px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-left: 130px;
+}
+.Aboutus__text h1{
+    font-family: 'Fraunces 9pt';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: white;
+}
+.Aboutus__text p{
+    font-family: 'Barlow';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: white;
+}
+.commitment{
+    width: 1110px;
+    height: 520px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 170px;
+}
+.commitment__rasm{
+width: 445px;
+height: 520px;
+
+}
+.commitment__text{
+    width: 540px;
+    height: 340px;
+    display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+row-gap: 30px;
+}
+.commitment__text h3{
+    font-family: 'Fraunces 9pt';
+font-style: normal;
+font-weight: 900;
+font-size: 40px;
+line-height: 48px;
+color: #333D4B;
+}
+.commitment__text p{
+    font-family: 'Barlow';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #333D4B;
+mix-blend-mode: normal;
+opacity: 0.8;
+}
+.quality{
+    width: 1280px;
+    height: 474px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 158px;
+    background: #2C343E;
+border-radius: 10px;
+}
+.quality__text{
+    width: 540px;
+    height: 210px;
+    color: white;
+}
+.quality__image img{
+width: 445px;
+height: 474px;
+margin-top: -150px;
+}
+.quality .quality__text h3{
+font-family: 'Fraunces 9pt';
+font-style: normal;
+font-weight: 900;
+font-size: 40px;
+line-height: 48px;
+color: #FEFCF7;
+}
+.quality .quality__text p{
+    
+font-family: 'Barlow';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #FEFCF7;
+mix-blend-mode: normal;
+opacity: 0.8;
+padding-top: 32px;
+}
+.headquarters{
+    width: 1045px;
+    height: 366px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 165px;
+}
+.headquarters .headquarters__text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+    column-gap: 270px;
+  }
+  .headquarters .headquarters__text h2{
+    font-family: 'Fraunces 9pt';
+font-style: normal;
+font-weight: 900;
+font-size: 32px;
+line-height: 36px;
+color: #333D4B;
+  }
+  .headquarters h4{
+    font-family: 'Fraunces 9pt';
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 32px;
+color: #83888F;
+margin-right: 850px;
+  }
+  .footer{
+    width: 1280px;
+    height: 120px;
+    background: #2C343E;
+    margin-top: 168px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+
+  }
+  .full__image{
+    width: 30px;
+    height: 30px;
+  }
+.full_replace{
+    display: flex;
+    gap: 10px;
+}
+
+
+
